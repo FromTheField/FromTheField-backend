@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/gokulkurup/root/FromTheField-backend/logs/.f2caf8d7550e8bb7211e569eecefdc6fcffc1fe4-audit.json",
+    "files": [
+        {
+            "date": 1600615837670,
+            "name": "/home/gokulkurup/root/FromTheField-backend/logs/2020-09-20.log",
+            "hash": "e5d053413cde04a5f9caae5a5129958d"
+        }
+    ]
+}
