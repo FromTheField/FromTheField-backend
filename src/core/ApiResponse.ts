@@ -42,3 +42,19 @@ abstract class ApiResponse {
     return clone;
   }
 }
+
+export class SuccessMsgResponse extends ApiResponse {
+  constructor(message: string) {
+    super(StatusCode.SUCCESS, ResponseStatus.SUCCESS, message);
+  }
+}
+
+export class SuccessResponse<T> extends ApiResponse {
+  constructor(message = "Successful Response", private data: T) {
+    super(StatusCode.SUCCESS, ResponseStatus.SUCCESS, message);
+  }
+
+  send(res: Response): Response {
+    return super.prepare<SuccessResponse<T>>(res, this);
+  }
+}
