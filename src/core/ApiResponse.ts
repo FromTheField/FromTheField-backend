@@ -42,7 +42,7 @@ abstract class ApiResponse {
     return clone;
   }
 }
-
+//Sucess Methods
 export class SuccessMsgResponse extends ApiResponse {
   constructor(message: string) {
     super(StatusCode.SUCCESS, ResponseStatus.SUCCESS, message);
@@ -56,5 +56,80 @@ export class SuccessResponse<T> extends ApiResponse {
 
   send(res: Response): Response {
     return super.prepare<SuccessResponse<T>>(res, this);
+  }
+}
+
+//Internal Error and Generic Error
+export class InternalErrorResponse extends ApiResponse {
+  constructor(message = "Internal Error") {
+    super(StatusCode.FAILURE, ResponseStatus.INTERNAL_ERROR, message);
+  }
+}
+
+export class FailureErrorReponse extends ApiResponse {
+  constructor(message: string) {
+    super(StatusCode.FAILURE, ResponseStatus.SUCCESS, message);
+  }
+}
+
+//UnAuthoirized and Forbidden
+export class AuthFailureResponse extends ApiResponse {
+  constructor(message = "Authentication Failure") {
+    super(StatusCode.FAILURE, ResponseStatus.UNAUTHORISED, message);
+  }
+}
+
+export class ForbiddenReponse extends ApiResponse {
+  constructor(message = "Forbidden Action") {
+    super(StatusCode.FAILURE, ResponseStatus.FORBIDDEN, message);
+  }
+}
+
+//BadRequest and NotFound
+export class NotFoundResponse extends ApiResponse {
+  private url: string;
+  constructor(message = "Not found") {
+    super(StatusCode.FAILURE, ResponseStatus.NOT_FOUND, message);
+  }
+
+  send(res: Response): Response {
+    this.url = res.req.originalUrl;
+    return super.prepare<NotFoundResponse>(res, this);
+  }
+}
+
+export class BadRequest extends ApiResponse {
+  constructor(message = "Bad Parameters") {
+    super(StatusCode.FAILURE, ResponseStatus.BAD_REQUEST, message);
+  }
+}
+
+//Invalid_Access_token and issue new token and refresh token
+export class AccessTokenErrorResponse extends ApiResponse {
+  private instruction = "refresh_token";
+  constructor(message = "invalid access token") {
+    super(
+      StatusCode.INVALID_ACCESS_TOKEN,
+      ResponseStatus.UNAUTHORISED,
+      message
+    );
+  }
+
+  send(res: Response): Response {
+    res.setHeader("instruction", this.instruction);
+    return super.prepare<AccessTokenErrorResponse>(res, this);
+  }
+}
+
+export class TokenRefreshResponse extends ApiResponse {
+  constructor(
+    message: string,
+    private access_token: string,
+    private refresh_token: string
+  ) {
+    super(StatusCode.SUCCESS, ResponseStatus.SUCCESS, message);
+  }
+  send(res: Response): Response {
+    return super.prepare<TokenRefreshResponse>(res, this);
   }
 }
