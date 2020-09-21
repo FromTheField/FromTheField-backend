@@ -1,9 +1,10 @@
-import express from "express";
+import express, { Response, Request, NextFunction } from "express";
 import cors from "cors";
-import { corsUrl } from "./config";
+import { corsUrl, environment } from "./config";
 import Logger from "./core/Logger";
 import "./database";
 import routesV1 from "./routes/v1";
+import { NotFoundError, ApiError, InternalError } from "./core/ApiError";
 
 const app = express();
 
@@ -19,6 +20,18 @@ app.use(cors({ origin: corsUrl }));
 
 app.use("/v1", routesV1);
 
-//error handlig
+//error handline
+app.use((req, res, next) => next(new NotFoundError("Route does not Exist")));
+app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
+  if (err instanceof ApiError) {
+    ApiError.handle(err, res);
+  } else {
+    if (environment == "development") {
+      Logger.error(err);
+      return res.status(500).send(err.message);
+    }
+    ApiError.handle(new InternalError(), res);
+  }
+});
 
 export default app;

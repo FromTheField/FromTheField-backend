@@ -26,12 +26,15 @@ const schema = new Schema({
   status: {
     type: Schema.Types.Boolean,
     required: true,
+    default: true,
   },
   createdAt: {
     type: Date,
+    default: Date.now,
   },
   updatedAt: {
     type: Date,
+    default: Date.now,
   },
 });
 
