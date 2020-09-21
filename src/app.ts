@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import { corsUrl } from "./config";
 import Logger from "./core/Logger";
+import "./database";
 import routesV1 from "./routes/v1";
 
 const app = express();
