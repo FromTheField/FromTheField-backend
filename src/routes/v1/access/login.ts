@@ -6,11 +6,14 @@ import { BadRequest, SuccessResponse } from "../../../core/ApiResponse";
 import { BadRequestError, AuthFailureError } from "../../../core/ApiError";
 import bcrypt from "bcryptjs";
 import _ from "lodash";
+import validator from "../../../helpers/validator";
+import schema from "./schema";
 
 const router = express.Router();
 
 router.post(
   "/basic",
+  validator(schema.login),
   asyncHandler(async (req, res) => {
     const user = await UserRepo.findByEmail(req.body.email);
     if (!user) throw new BadRequestError("User Not Registered");

@@ -8,11 +8,14 @@ import brcrypt from "bcryptjs";
 import { RoleCode } from "../../../database/models/role";
 import { SuccessResponse } from "../../../core/ApiResponse";
 import _ from "lodash";
+import validator from "../../../helpers/validator";
+import schema from "./schema";
 
 const router = express.Router();
 
 router.post(
   "/:role",
+  validator(schema.signup),
   asyncHandler(async (req, res) => {
     const user = await UserRepo.findByEmail(req.body.email);
     if (user) throw new BadRequestError("User Already Registered");
