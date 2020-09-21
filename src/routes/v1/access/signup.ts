@@ -15,7 +15,7 @@ router.post(
   "/:role",
   asyncHandler(async (req, res) => {
     const user = await UserRepo.findByEmail(req.body.email);
-    if (user) return new BadRequestError("User Already Registered");
+    if (user) throw new BadRequestError("User Already Registered");
 
     const salt = brcrypt.genSaltSync(10);
     const hashPwd = brcrypt.hashSync(req.body.password, salt);
@@ -29,7 +29,7 @@ router.post(
       } as unknown) as User,
       req.params.role as RoleCode
     );
-    return new SuccessResponse("Signup Successful", {
+    new SuccessResponse("Signup Successful", {
       user: _.pick(createdUser, ["_id", "name", "email", "roles"]),
     }).send(res);
   })
