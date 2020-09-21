@@ -2,6 +2,7 @@ import express from "express";
 import Logger from "../../../core/Logger";
 import asyncHandler from "../../../helpers/asyncHandler";
 import UserRepo from "../../../database/repository/UserRepo";
+import { BadRequestError } from "../../../core/ApiError";
 
 const router = express.Router();
 
