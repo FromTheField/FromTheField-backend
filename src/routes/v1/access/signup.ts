@@ -10,6 +10,7 @@ import { SuccessResponse } from "../../../core/ApiResponse";
 import _ from "lodash";
 import validator from "../../../helpers/validator";
 import schema from "./schema";
+import crypto from "crypto";
 
 const router = express.Router();
 
@@ -19,6 +20,9 @@ router.post(
   asyncHandler(async (req, res) => {
     const user = await UserRepo.findByEmail(req.body.email);
     if (user) throw new BadRequestError("User Already Registered");
+
+    const access_token = crypto.randomBytes(64).toString("hex");
+    const refresh_token = crypto.randomBytes(64).toString("hex");
 
     const salt = brcrypt.genSaltSync(10);
     const hashPwd = brcrypt.hashSync(req.body.password, salt);
@@ -30,6 +34,8 @@ router.post(
         password: hashPwd,
         email: req.body.email,
       } as unknown) as User,
+      access_token,
+      refresh_token,
       req.params.role as RoleCode
     );
     new SuccessResponse("Signup Successful", {
