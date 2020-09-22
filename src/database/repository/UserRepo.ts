@@ -7,7 +7,14 @@ import KeystoreRepo from "./KeyStoreRepo";
 
 export default class UserRepo {
   public static findByEmail(email: string): Promise<User> {
-    return UserModel.findOne({ email }).lean<User>().exec();
+    return UserModel.findOne({ email })
+      .select("+email +password")
+      .populate({
+        path: "Roles",
+        match: { status: true },
+      })
+      .lean<User>()
+      .exec();
   }
   public static async create(
     user: User,

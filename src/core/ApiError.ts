@@ -107,3 +107,9 @@ export class TokenExpiredError extends ApiError {
     super(ErrorType.TOKEN_EXPIRED, message);
   }
 }
+
+export class BadTokenError extends ApiError {
+  constructor(message = "Bad token ") {
+    super(ErrorType.BAD_TOKEN, message);
+  }
+}

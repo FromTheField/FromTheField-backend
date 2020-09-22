@@ -8,6 +8,9 @@ import bcrypt from "bcryptjs";
 import _ from "lodash";
 import validator from "../../../helpers/validator";
 import schema from "./schema";
+import crypto from "crypto";
+import KeystoreRepo from "../../../database/repository/KeyStoreRepo";
+import { createTokens } from "../../../auth/authUtils";
 
 const router = express.Router();
 
@@ -22,8 +25,15 @@ router.post(
     const match = await bcrypt.compare(req.body.password, user.password);
     if (!match) throw new AuthFailureError("Invalid password");
 
+    const accessTokenKey = crypto.randomBytes(64).toString("hex");
+    const refreshTokenKey = crypto.randomBytes(64).toString("hex");
+
+    await KeystoreRepo.create(user._id, accessTokenKey, refreshTokenKey);
+    const tokens = await createTokens(user, accessTokenKey, refreshTokenKey);
+
     new SuccessResponse("Login Success", {
       user: _.pick(user, ["_id", "name", "email", "password"]),
+      tokens,
     }).send(res);
   })
 );
