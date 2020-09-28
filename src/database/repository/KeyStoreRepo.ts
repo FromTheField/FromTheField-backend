@@ -1,15 +1,18 @@
 import Keystore, { KeyStoreModel } from "../models/keystore";
-import User from "../models/mentee";
+import Mentee from "../models/mentee";
+import Mentor from "../models/mentor";
 
 export default class KeystoreRepo {
   public static async create(
-    client: User,
     primaryKey: string,
-    secondaryKey: string
+    secondaryKey: string,
+    mentee?: Mentee,
+    mentor?: Mentor
   ): Promise<Keystore> {
     const now = new Date();
     const keystore = await KeyStoreModel.create(({
-      client,
+      mentee,
+      mentor,
       primaryKey,
       secondaryKey,
       createdAt: now,

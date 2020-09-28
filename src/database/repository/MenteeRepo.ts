@@ -19,9 +19,9 @@ export default class MenteeRepo {
     user.createdAt = user.updatedAt = now;
     const createdUser = await MenteeModel.create(user);
     const keystore = await KeystoreRepo.create(
-      createdUser._id,
       access_token,
-      refresh_token
+      refresh_token,
+      createdUser._id
     );
     return { user: createdUser.toObject(), keystore };
   }

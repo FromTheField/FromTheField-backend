@@ -39,6 +39,10 @@ export default interface Mentor extends Document {
   password: string;
   rating?: number;
   desc?: string;
+  phNum?: string;
+  location?: string;
+  createdAt?: Date;
+  updatedAt?: Date;
 }
 
 const mentorSchema = new Schema({
@@ -74,6 +78,27 @@ const mentorSchema = new Schema({
     type: Schema.Types.String,
     required: true,
     maxlength: 300,
+    trim: true,
+  },
+  phNum: {
+    type: Schema.Types.String,
+    required: true,
+    maxlength: 50,
+    trim: true,
+  },
+  location: {
+    type: Schema.Types.String,
+    required: true,
+    maxlength: 70,
+    trim: true,
+  },
+  createdAt: {
+    type: Schema.Types.Date,
+    required: true,
+  },
+  updatedAt: {
+    type: Schema.Types.Date,
+    required: true,
   },
 });
 

@@ -1,24 +1,25 @@
 import express from "express";
 import asyncHandler from "../../../helpers/asyncHandler";
-import MenteeRepo from "../../../database/repository/MenteeRepo";
 import { SuccessResponse } from "../../../core/ApiResponse";
 import { BadRequestError, AuthFailureError } from "../../../core/ApiError";
 import bcrypt from "bcryptjs";
 import _ from "lodash";
 import validator from "../../../helpers/validator";
-import schema from "./schema";
+import schema from "./mentorSchema";
 import crypto from "crypto";
 import KeystoreRepo from "../../../database/repository/KeyStoreRepo";
 import { createTokens } from "../../../auth/authUtils";
+import MentorRepo from "../../../database/repository/MentorRepo";
+import Logger from "../../../core/Logger";
 
 const router = express.Router();
 
 router.post(
-  "/basic",
+  "/",
   validator(schema.login),
   asyncHandler(async (req, res) => {
-    const user = await MenteeRepo.findByEmail(req.body.email);
-    if (!user) throw new BadRequestError("User Not Registered");
+    const user = await MentorRepo.findByEmail(req.body.email);
+    if (!user) throw new BadRequestError("Not Registered");
     if (!user.password) throw new BadRequestError("Password not set");
 
     const match = await bcrypt.compare(req.body.password, user.password);

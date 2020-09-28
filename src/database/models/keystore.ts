@@ -1,11 +1,13 @@
 import { Schema, Document, model } from "mongoose";
-import User from "./mentee";
+import Mentee from "./mentee";
+import Mentor from "./mentor";
 
 export const DOCUMENT_NAME = "Keystore";
 export const COLLECTION_NAME = "keystores";
 
 export default interface Keystore extends Document {
-  client: User;
+  _mentee?: Mentee;
+  _mentor?: Mentor;
   primaryKey: string;
   secondarKey: string;
   status: boolean;
@@ -14,10 +16,13 @@ export default interface Keystore extends Document {
 }
 
 const schema = new Schema({
-  client: {
+  _mentee: {
     type: Schema.Types.ObjectId,
-    required: true,
-    ref: "User",
+    ref: "mentee",
+  },
+  _mentor: {
+    type: Schema.Types.ObjectId,
+    ref: "mentor",
   },
   primaryKey: {
     type: Schema.Types.String,
