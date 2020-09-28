@@ -1,5 +1,5 @@
 import { Request } from "express";
-import User from "../database/models/user";
+import User from "../database/models/mentee";
 import Keystore from "../database/models/keystore";
 
 declare interface PublicRequest extends Request {

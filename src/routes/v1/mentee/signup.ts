@@ -1,8 +1,8 @@
 import express from "express";
 import Logger from "../../../core/Logger";
 import asyncHandler from "../../../helpers/asyncHandler";
-import User from "../../../database/models/user";
-import UserRepo from "../../../database/repository/UserRepo";
+import User from "../../../database/models/mentee";
+import UserRepo from "../../../database/repository/MenteeRepo";
 import { BadRequestError } from "../../../core/ApiError";
 import brcrypt from "bcryptjs";
 import { RoleCode } from "../../../database/models/role";

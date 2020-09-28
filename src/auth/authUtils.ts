@@ -2,7 +2,7 @@ import { Tokens } from "app-request";
 import { AuthFailureError, InternalError } from "../core/ApiError";
 import JWT, { JwtPayload } from "../core/JWT";
 import { Types } from "mongoose";
-import User from "../database/models/user";
+import User from "../database/models/mentee";
 import { tokenInfo } from "../config";
 
 export const getAccessToken = (authorization: string) => {

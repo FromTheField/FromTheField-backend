@@ -1,8 +1,7 @@
 import express from "express";
-import Logger from "../../../core/Logger";
 import asyncHandler from "../../../helpers/asyncHandler";
-import UserRepo from "../../../database/repository/UserRepo";
-import { BadRequest, SuccessResponse } from "../../../core/ApiResponse";
+import MenteeRepo from "../../../database/repository/MenteeRepo";
+import { SuccessResponse } from "../../../core/ApiResponse";
 import { BadRequestError, AuthFailureError } from "../../../core/ApiError";
 import bcrypt from "bcryptjs";
 import _ from "lodash";
@@ -18,7 +17,7 @@ router.post(
   "/basic",
   validator(schema.login),
   asyncHandler(async (req, res) => {
-    const user = await UserRepo.findByEmail(req.body.email);
+    const user = await MenteeRepo.findByEmail(req.body.email);
     if (!user) throw new BadRequestError("User Not Registered");
     if (!user.password) throw new BadRequestError("Password not set");
 

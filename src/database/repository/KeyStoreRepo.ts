@@ -1,5 +1,5 @@
 import Keystore, { KeyStoreModel } from "../models/keystore";
-import User from "../models/user";
+import User from "../models/mentee";
 
 export default class KeystoreRepo {
   public static async create(

@@ -1,10 +1,10 @@
 import { Schema, model, Document } from "mongoose";
 import Role from "./role";
 
-export const DOCUMENT_NAME = "user";
-export const COLLECTION_NAME = "users";
+export const DOCUMENT_NAME = "mentee";
+export const COLLECTION_NAME = "mentees";
 
-export default interface User extends Document {
+export default interface Mentee extends Document {
   name?: string;
   email: string;
   password: string;
@@ -33,10 +33,18 @@ const schema = new Schema({
   },
   createdAt: {
     type: Schema.Types.Date,
+    select: false,
+    required: true,
   },
   updatedAt: {
     type: Schema.Types.Date,
+    select: false,
+    required: true,
   },
 });
 
-export const UserModel = model<User>(DOCUMENT_NAME, schema, COLLECTION_NAME);
+export const MenteeModel = model<Mentee>(
+  DOCUMENT_NAME,
+  schema,
+  COLLECTION_NAME
+);

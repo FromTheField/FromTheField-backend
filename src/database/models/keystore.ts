@@ -1,5 +1,5 @@
 import { Schema, Document, model } from "mongoose";
-import User from "./user";
+import User from "./mentee";
 
 export const DOCUMENT_NAME = "Keystore";
 export const COLLECTION_NAME = "keystores";
