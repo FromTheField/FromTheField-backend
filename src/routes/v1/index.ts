@@ -1,6 +1,6 @@
 import express from "express";
-import login from "./access/login";
-import signup from "./access/signup";
+import login from "./mentee/login";
+import signup from "./mentee/signup";
 
 const router = express.Router();
 

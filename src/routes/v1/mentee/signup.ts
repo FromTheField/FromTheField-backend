@@ -17,7 +17,7 @@ import { RoleRequest } from "../../../types/app-request";
 const router = express.Router();
 
 router.post(
-  "/:role",
+  "/",
   validator(schema.signup),
   asyncHandler(async (req, res) => {
     const user = await UserRepo.findByEmail(req.body.email);
@@ -37,8 +37,7 @@ router.post(
         email: req.body.email,
       } as unknown) as User,
       accessTokenKey,
-      refreshTokenKey,
-      req.params.role as RoleCode
+      refreshTokenKey
     );
     const tokens = await createTokens(
       createdUser,
@@ -47,7 +46,7 @@ router.post(
     );
 
     new SuccessResponse("Signup Successful", {
-      user: _.pick(user, ["_id", "name", "email", "roles"]),
+      user: _.pick(createdUser, ["_id", "name", "email", "roles"]),
       tokens,
     }).send(res);
   })

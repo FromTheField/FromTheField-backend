@@ -16,6 +16,8 @@ const schema = new Schema({
   name: {
     type: Schema.Types.String,
     required: true,
+    trim: true,
+    maxlength: 100,
   },
   email: {
     type: Schema.Types.String,
@@ -26,6 +28,8 @@ const schema = new Schema({
   password: {
     type: Schema.Types.String,
     required: true,
+    trim: true,
+    select: false,
   },
   createdAt: {
     type: Schema.Types.Date,
