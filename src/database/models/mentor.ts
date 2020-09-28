@@ -37,7 +37,7 @@ export default interface Mentor extends Document {
   name?: string;
   background?: background[];
   password: string;
-  rating?: number;
+  rating?: number[];
   desc?: string;
   phNum?: string;
   location?: string;
@@ -65,14 +65,14 @@ const mentorSchema = new Schema({
     trim: true,
     select: false,
   },
-  background: [
-    {
-      type: backgroundSchema,
-    },
-  ],
+  background: {
+    type: [backgroundSchema],
+    required: true,
+  },
   rating: {
-    type: Schema.Types.Number,
-    default: -1,
+    type: [Schema.Types.Number],
+    default: [0, 0, 0, 0, 0],
+    required: true,
   },
   desc: {
     type: Schema.Types.String,

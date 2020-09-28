@@ -8,6 +8,13 @@ export default class MentorRepo {
       .lean<Mentor>()
       .exec();
   }
+
+  public static async editRating(
+    email: string,
+    userRating: number[]
+  ): Promise<Number> {
+    return MentorModel.updateOne({ email }, { $set: { rating: userRating } });
+  }
   public static async create(
     email: string,
     name: string,

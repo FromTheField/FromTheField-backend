@@ -32,7 +32,7 @@ router.post(
     const tokens = await createTokens(user, accessTokenKey, refreshTokenKey);
 
     new SuccessResponse("Login Success", {
-      user: _.pick(user, ["_id", "name", "email", "password"]),
+      user: _.pick(user, ["_id", "name", "email", "password", "rating"]),
       tokens,
     }).send(res);
   })
