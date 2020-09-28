@@ -12,7 +12,7 @@ export default class MentorRepo {
   public static async editRating(
     email: string,
     userRating: number[]
-  ): Promise<Number> {
+  ): Promise<any> {
     return MentorModel.updateOne({ email }, { $set: { rating: userRating } });
   }
   public static async create(

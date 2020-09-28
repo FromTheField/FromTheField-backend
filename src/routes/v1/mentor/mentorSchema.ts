@@ -8,8 +8,8 @@ export default {
       .items({
         title: Joi.string().required(),
         place: Joi.string().required(),
-        start: Joi.number().positive().required(),
-        end: Joi.number().positive().required(),
+        start: Joi.number().integer().positive().required(),
+        end: Joi.number().integer().positive().required(),
       })
       .required(),
     password: Joi.string().required().min(3),
@@ -20,5 +20,9 @@ export default {
   login: Joi.object().keys({
     email: Joi.string().email().required(),
     password: Joi.string().required(),
+  }),
+  editRating: Joi.object().keys({
+    userRating: Joi.number().integer().min(1).max(5).required(),
+    email: Joi.string().email().required(),
   }),
 };
