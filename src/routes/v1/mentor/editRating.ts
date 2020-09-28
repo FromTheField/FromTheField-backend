@@ -24,8 +24,18 @@ router.post(
     if (newMentor.ok != 1)
       throw new InternalError(`Rating Update Failed for ${newMentor}`);
 
+    let finalRating = 0;
+    let star = 1;
+    let numMentee = 0;
+    mentor.rating.forEach((ele) => {
+      finalRating = finalRating + star * ele;
+      star++;
+      numMentee += ele;
+    });
+    finalRating /= numMentee;
+
     new SuccessResponse("Update Sucessful", {
-      rating: mentor.rating,
+      rating: finalRating,
     }).send(res);
   })
 );

@@ -25,4 +25,7 @@ export default {
     userRating: Joi.number().integer().min(1).max(5).required(),
     email: Joi.string().email().required(),
   }),
+  getRating: Joi.object().keys({
+    email: Joi.string().email().required(),
+  }),
 };
