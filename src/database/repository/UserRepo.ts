@@ -19,15 +19,10 @@ export default class UserRepo {
   public static async create(
     user: User,
     access_token: string,
-    refresh_token: string,
-    roleCode: RoleCode
+    refresh_token: string
   ): Promise<{ user: User; keystore: Keystore }> {
     const now = new Date();
 
-    const role = await RoleRepo.findByCode(roleCode);
-    if (!role) throw new InternalError("Invalid Role/Role Must be defined");
-
-    user.roles = [role._id];
     user.createdAt = user.updatedAt = now;
     const createdUser = await UserModel.create(user);
     const keystore = await KeystoreRepo.create(

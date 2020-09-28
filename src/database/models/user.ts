@@ -8,7 +8,6 @@ export default interface User extends Document {
   name?: string;
   email: string;
   password: string;
-  roles?: Role[];
   createdAt?: Date;
   updatedAt?: Date;
 }
@@ -27,14 +26,6 @@ const schema = new Schema({
   password: {
     type: Schema.Types.String,
     required: true,
-  },
-  roles: {
-    type: [
-      {
-        type: Schema.Types.ObjectId,
-        ref: "Role",
-      },
-    ],
   },
   createdAt: {
     type: Schema.Types.Date,
