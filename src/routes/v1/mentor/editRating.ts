@@ -4,7 +4,6 @@ import MentorRepo from "../../../database/repository/MentorRepo";
 import { NoData, InternalError } from "../../../core/ApiError";
 import { SuccessResponse, BadRequest } from "../../../core/ApiResponse";
 import _ from "lodash";
-import Logger from "../../../core/Logger";
 const router = express.Router();
 
 router.post(
