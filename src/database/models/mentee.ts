@@ -15,7 +15,6 @@ export default interface Mentee extends Document {
 const schema = new Schema({
   name: {
     type: Schema.Types.String,
-    required: true,
     trim: true,
     maxlength: 100,
   },

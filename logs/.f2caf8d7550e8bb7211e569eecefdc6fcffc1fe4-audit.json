@@ -6,34 +6,9 @@
     "auditLog": "/home/gokulkurup/root/FromTheField-backend/logs/.f2caf8d7550e8bb7211e569eecefdc6fcffc1fe4-audit.json",
     "files": [
         {
-            "date": 1600615837670,
-            "name": "/home/gokulkurup/root/FromTheField-backend/logs/2020-09-20.log",
-            "hash": "e5d053413cde04a5f9caae5a5129958d"
-        },
-        {
-            "date": 1600684841485,
-            "name": "/home/gokulkurup/root/FromTheField-backend/logs/2020-09-21.log",
-            "hash": "adcc77c84403d69bfa93d3a884809bfd"
-        },
-        {
-            "date": 1600761394022,
-            "name": "/home/gokulkurup/root/FromTheField-backend/logs/2020-09-22.log",
-            "hash": "2ab547f4c07e61771d7b4cd3e79dc602"
-        },
-        {
-            "date": 1601195210389,
-            "name": "/home/gokulkurup/root/FromTheField-backend/logs/2020-09-27.log",
-            "hash": "3cd6f19d2e5c72cf4e8f164110bc339a"
-        },
-        {
-            "date": 1601299748561,
-            "name": "/home/gokulkurup/root/FromTheField-backend/logs/2020-09-28.log",
-            "hash": "4c4e419c308de507eef1404a2349bfb4"
-        },
-        {
-            "date": 1601317838597,
-            "name": "/home/gokulkurup/root/FromTheField-backend/logs/2020-09-29.log",
-            "hash": "25238993640f131ca1a9606849baf731"
+            "date": 1608821765826,
+            "name": "/home/gokulkurup/root/FromTheField-backend/logs/2020-12-24.log",
+            "hash": "4cab668006cef771006b50b86e1838c8"
         }
     ]
 }
