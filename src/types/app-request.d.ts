@@ -2,11 +2,11 @@ import { Request } from "express";
 import User from "../database/models/mentee";
 import Keystore from "../database/models/keystore";
 
-declare interface PublicRequest extends Request {
-  apiKey: string;
-}
+// declare interface PublicRequest extends Request {
+//   apiKey: string;
+// }
 
-declare interface RoleRequest extends PublicRequest {
+declare interface RoleRequest extends Request{
   currentRoleCode: string;
 }
 

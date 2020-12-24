@@ -9,6 +9,12 @@ export default class MenteeRepo {
       .lean<Mentee>()
       .exec();
   }
+  public static findById(id: string): Promise<Mentee> {
+    return MenteeModel.findById(id)
+      .select("+email +password")
+      .lean<Mentee>()
+      .exec();
+  }
   public static async create(
     user: Mentee,
     access_token: string,

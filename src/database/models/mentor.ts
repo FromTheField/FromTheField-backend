@@ -1,5 +1,4 @@
 import { Document, Schema, model } from "mongoose";
-import { string, number } from "@hapi/joi";
 
 export const DOCUMENT_NAME = "mentor";
 export const COLLECTION_NAME = "mentors";

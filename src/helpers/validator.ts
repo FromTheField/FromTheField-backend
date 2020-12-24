@@ -1,4 +1,4 @@
-import Joi from "@hapi/joi";
+import Joi from "joi";
 import { Request, Response, NextFunction } from "express";
 import Logger from "../core/Logger";
 import { BadRequestError } from "../core/ApiError";

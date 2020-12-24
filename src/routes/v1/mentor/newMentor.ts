@@ -20,7 +20,7 @@ interface props {
 
 router.use(
   "/",
-  validator(schema.new),
+  validator(schema.new as any),
   asyncHandler(async (req, res) => {
     const {
       email,
@@ -62,7 +62,7 @@ router.use(
       createdMentor._id
     );
     const tokens = await createTokens(
-      createdMentor,
+      createdMentor._id,
       accessTokenKey,
       refreshTokenKey
     );

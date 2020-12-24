@@ -7,7 +7,7 @@ import getMentor from "./getMentor";
 
 const router = express.Router();
 
-router.use("/", getMentor);
+router.use("/fetch", getMentor);
 router.use("/new", newMentor);
 router.use("/login", mentorLogin);
 router.use("/editRating", editRating);

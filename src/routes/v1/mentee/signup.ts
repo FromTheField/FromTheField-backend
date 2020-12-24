@@ -35,6 +35,7 @@ router.post(
         name: req.body.name,
         password: hashPwd,
         email: req.body.email,
+        org:req.body.org
       } as unknown) as User,
       accessTokenKey,
       refreshTokenKey

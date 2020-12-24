@@ -3,13 +3,18 @@ import express from "express";
 import MentorRepo from "../../../database/repository/MentorRepo";
 import { BadRequestError } from "../../../core/ApiError";
 import { SuccessResponse } from "../../../core/ApiResponse";
+import authentication from "../../../auth/Menteeauthentication";
+import { ProtectedRequest } from "../../../types/app-request";
 
 const router = express.Router();
 
+router.use("/",authentication);
+
+
 router.get(
-  "/",
-  asyncHandler(async (req, res) => {
-    const mentor = await MentorRepo.findByEmail(req.body.email);
+  "/:id",
+  asyncHandler(async (req:ProtectedRequest, res) => {
+    const mentor = await MentorRepo.findByEmail(req.user.email);
     if (!mentor) throw new BadRequestError("Mentor does not exist");
 
     new SuccessResponse("Mentor", {

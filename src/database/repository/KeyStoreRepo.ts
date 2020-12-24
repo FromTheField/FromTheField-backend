@@ -20,4 +20,8 @@ export default class KeystoreRepo {
     } as unknown) as Keystore);
     return keystore.toObject();
   }
+
+  public static async findById(id:string):Promise<Keystore> {
+    return KeyStoreModel.findById(id).lean<Keystore>().exec();
+  }
 }
