@@ -14,6 +14,9 @@
     "init-roledb": "node -r dotenv/config build/database/role_init.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "15.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/madrigal1/FromTheField-backend.git"
@@ -33,6 +36,7 @@
     "@types/jsonwebtoken": "^8.5.0",
     "@types/lodash": "^4.14.161",
     "@types/mongoose": "^5.7.36",
+    "@types/node": "^14.14.16",
     "@types/typescript": "^2.0.0",
     "@types/winston": "^2.4.4",
     "bcryptjs": "^2.4.3",
