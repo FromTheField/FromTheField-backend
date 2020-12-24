@@ -29,7 +29,7 @@ router.post(
     const refreshTokenKey = crypto.randomBytes(64).toString("hex");
 
     await KeystoreRepo.create(accessTokenKey, refreshTokenKey, user._id);
-    const tokens = await createTokens(user, accessTokenKey, refreshTokenKey);
+    const tokens = await createTokens(user._id, accessTokenKey, refreshTokenKey);
 
     new SuccessResponse("Login Success", {
       user: _.pick(user, ["_id", "name", "email", "password", "rating"]),

@@ -41,7 +41,7 @@ router.post(
       refreshTokenKey
     );
     const tokens = await createTokens(
-      createdUser,
+      createdUser._id,
       keystore.primaryKey,
       keystore.secondarKey
     );
