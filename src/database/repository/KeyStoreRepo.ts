@@ -34,20 +34,20 @@ export default class KeystoreRepo {
     ): Promise<Keystore> {
       const now = new Date();
       let keystore:Keystore;
-      KeystoreModel.findOneAndUpdate({client}, {$set:{primaryKey,secondaryKey}}, {new: true}, async (err, doc) => {
-        if (err) {
-          keystore = await KeystoreModel.create(({
-            client: client,
-            primaryKey: primaryKey,
-            secondaryKey: secondaryKey,
-            createdAt: now,
-            updatedAt: now,
-          } as unknown )as Keystore);
-        }
-    
-        console.log(doc,err);
-    });
-     
+      keystore = await KeystoreModel.findOne({client});
+      if(keystore) {
+        console.log("exists")
+        keystore =await  KeystoreModel.findOneAndUpdate({client}, {$set:{primaryKey,secondaryKey}}, {new: true});
+      } else {
+        console.log("nope")
+        keystore = await KeystoreModel.create(({
+              client: client._id,
+              primaryKey: primaryKey,
+              secondaryKey: secondaryKey,
+              createdAt: now,
+              updatedAt: now,
+            } as unknown )as Keystore);
+      }
       return keystore.toObject();
     }
   }

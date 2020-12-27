@@ -15,7 +15,7 @@ export default interface Keystore extends Document {
 }
 
 const schema = new Schema({
-  user: {
+  client: {
     type: Schema.Types.ObjectId,
     ref: "user",
   },
