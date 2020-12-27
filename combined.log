@@ -696,3 +696,293 @@ error: keystore.toObject is not a function
 info: Server running on port :  3000
 info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
 info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Mongoose default connection disconnected
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: name is not allowed
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: E11000 duplicate key error collection: FromTheField.users index: email_1 dup key: { email: "metor@gmail.com" } {"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"metor@gmail.com"}}
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: E11000 duplicate key error collection: FromTheField.users index: email_1 dup key: { email: "metor@gmail.com" } {"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"metor@gmail.com"}}
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: name is required
+info: Server running on port :  3000
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: user validation failed: name: Path `name` is required. {"errors":{"name":{"name":"ValidatorError","message":"Path `name` is required.","properties":{"message":"Path `name` is required.","type":"required","path":"name"},"kind":"required","path":"name"}},"_message":"user validation failed"}
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: listen EADDRINUSE: address already in use :::3000 {"code":"EADDRINUSE","errno":-98,"syscall":"listen","address":"::","port":3000}
+error: write EPIPE {"errno":-32,"code":"EPIPE","syscall":"write"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done

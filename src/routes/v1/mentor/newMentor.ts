@@ -1,84 +1,57 @@
+
+
 import express from "express";
 import asyncHandler from "../../../helpers/asyncHandler";
-import MentorRepo from "../../../database/repository/MentorRepo";
 import { SuccessResponse } from "../../../core/ApiResponse";
-import { BadRequestError } from "../../../core/ApiError";
+import { BadRequestError, AuthFailureError } from "../../../core/ApiError";
+import bcrypt from "bcryptjs";
 import _ from "lodash";
 import validator from "../../../helpers/validator";
 import schema from "./mentorSchema";
-import { createTokens } from "../../../auth/authUtils";
 import crypto from "crypto";
-import KeystoreRepo from "../../../database/repository/KeyStoreRepo";
-import bcrypt from "bcryptjs";
+import { createTokens } from "../../../auth/authUtils";
+import UserRepo from "../../../database/repository/UserRepo";
+import User from "../../../database/models/User";
 
 const router = express.Router();
 
-interface props {
-  start?: number;
-  end?: number;
-}
-
-router.use(
+router.post(
   "/",
-  validator(schema.new as any),
+  validator(schema.new),
   asyncHandler(async (req, res) => {
-    const {
-      email,
-      name,
-      background,
-      password,
-      desc,
-      phNum,
-      location,
-    } = req.body;
 
-    if (background)
-      background.forEach(({ start, end }: props) => {
-        if (start > end)
-          throw new BadRequestError("Invalid Years for the experience");
-      });
+    const user = await UserRepo.findByEmail(req.body.email);
+    if (user) throw new BadRequestError("Already Registered.Please Login");
 
-    const mentor = await MentorRepo.findByEmail(email);
-    if (mentor) throw new BadRequestError("Mentor already exists");
-
-    const salt = bcrypt.genSaltSync(10);
-    const hashPwd = bcrypt.hashSync(password, salt);
-
-    const createdMentor = await MentorRepo.create(
-      email,
-      name,
-      background,
-      hashPwd,
-      desc,
-      phNum,
-      location
-    );
     const accessTokenKey = crypto.randomBytes(64).toString("hex");
     const refreshTokenKey = crypto.randomBytes(64).toString("hex");
 
-    await KeystoreRepo.create(
-      createdMentor,
-      accessTokenKey,
-      refreshTokenKey,
-    );
-    const tokens = await createTokens(
-      createdMentor._id,
+    const salt = bcrypt.genSaltSync(10);
+    const hashPwd = bcrypt.hashSync(req.body.password, salt);
+    //Debug
+    // Logger.info(`Current Role is: ${req.params.role}`);
+    const { user: createdUser, keystore } = await UserRepo.create(
+      {
+        name: req.body.name,
+        password: hashPwd,
+        email: req.body.email,
+        org:req.body.org,
+        isMentor:true,
+      }  as User,
       accessTokenKey,
       refreshTokenKey
     );
-    new SuccessResponse("Mentor Registration Successful", {
-      mentor: _.pick(createdMentor, [
-        "_id",
-        "name",
-        "name",
-        "background",
-        "password",
-        "desc",
-        "phNum",
-        "location",
-      ]),
+    const tokens = await createTokens(
+      createdUser._id,
+      keystore.primaryKey,
+      keystore.secondarKey
+    );
+
+    new SuccessResponse("Signup Success", {
+      user: createdUser,
       tokens,
     }).send(res);
   })
 );
+
 export default router;
