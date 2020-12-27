@@ -57,9 +57,9 @@ router.use(
     const refreshTokenKey = crypto.randomBytes(64).toString("hex");
 
     await KeystoreRepo.create(
+      createdMentor,
       accessTokenKey,
       refreshTokenKey,
-      createdMentor._id
     );
     const tokens = await createTokens(
       createdMentor._id,

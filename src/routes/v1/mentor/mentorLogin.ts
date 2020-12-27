@@ -10,7 +10,6 @@ import crypto from "crypto";
 import KeystoreRepo from "../../../database/repository/KeyStoreRepo";
 import { createTokens } from "../../../auth/authUtils";
 import MentorRepo from "../../../database/repository/MentorRepo";
-import Logger from "../../../core/Logger";
 
 const router = express.Router();
 
@@ -28,7 +27,7 @@ router.post(
     const accessTokenKey = crypto.randomBytes(64).toString("hex");
     const refreshTokenKey = crypto.randomBytes(64).toString("hex");
 
-    await KeystoreRepo.create(accessTokenKey, refreshTokenKey, user._id);
+    await KeystoreRepo.create(user._id,accessTokenKey, refreshTokenKey);
     const tokens = await createTokens(user._id, accessTokenKey, refreshTokenKey);
 
     new SuccessResponse("Login Success", {

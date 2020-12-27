@@ -4,15 +4,16 @@
   "description": "from the field",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build && npm run serve",
+    "start": "npm run build && && npm run kill && npm run serve",
     "serve": "node -r dotenv/config build/server.js",
     "build": "npm run build-ts",
     "build-ts": "tsc",
     "watch": "concurrently -k -p \"[{name}]\" -n \"Typescript,Node\" -c \"yellow.bold,cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run watch-node\"",
     "watch-ts": "tsc -w",
-    "watch-node": "nodemon -r dotenv/config build/server.js",
+    "watch-node": " npm run kill && nodemon -r dotenv/config build/server.js",
     "init-roledb": "node -r dotenv/config build/database/role_init.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "kill": "kill -9 $(lsof -i :3000) &>/dev/null | exit 0"
   },
   "engines": {
     "node": "15.x"

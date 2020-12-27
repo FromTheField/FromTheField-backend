@@ -3,7 +3,7 @@ import express from "express";
 import MentorRepo from "../../../database/repository/MentorRepo";
 import { BadRequestError } from "../../../core/ApiError";
 import { SuccessResponse } from "../../../core/ApiResponse";
-import authentication from "../../../auth/Menteeauthentication";
+import authentication from "../../../auth/authentication";
 import { ProtectedRequest } from "../../../types/app-request";
 
 const router = express.Router();

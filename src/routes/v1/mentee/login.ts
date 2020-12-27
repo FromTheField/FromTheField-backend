@@ -27,7 +27,7 @@ router.post(
     const accessTokenKey = crypto.randomBytes(64).toString("hex");
     const refreshTokenKey = crypto.randomBytes(64).toString("hex");
 
-    await KeystoreRepo.create(accessTokenKey, refreshTokenKey, user._id);
+    await KeystoreRepo.create(user,accessTokenKey, refreshTokenKey);
     const tokens = await createTokens(user._id, accessTokenKey, refreshTokenKey);
 
     new SuccessResponse("Login Success", {

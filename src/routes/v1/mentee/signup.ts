@@ -1,14 +1,14 @@
 import express from "express";
 import Logger from "../../../core/Logger";
 import asyncHandler from "../../../helpers/asyncHandler";
-import User from "../../../database/models/mentee";
-import UserRepo from "../../../database/repository/MenteeRepo";
+import User from "../../../database/models/User";
+import UserRepo from "../../../database/repository/UserRepo";
 import { BadRequestError } from "../../../core/ApiError";
 import brcrypt from "bcryptjs";
 import { RoleCode } from "../../../database/models/role";
 import { SuccessResponse } from "../../../core/ApiResponse";
 import _ from "lodash";
-import validator from "../../../helpers/validator";
+import validator from "../../../helpers/validator"; 
 import schema from "./schema";
 import crypto from "crypto";
 import { createTokens } from "../../../auth/authUtils";
@@ -29,14 +29,14 @@ router.post(
     const salt = brcrypt.genSaltSync(10);
     const hashPwd = brcrypt.hashSync(req.body.password, salt);
     //Debug
-    Logger.info(`Current Role is: ${req.params.role}`);
+    // Logger.info(`Current Role is: ${req.params.role}`);
     const { user: createdUser, keystore } = await UserRepo.create(
-      ({
+      {
         name: req.body.name,
         password: hashPwd,
         email: req.body.email,
         org:req.body.org
-      } as unknown) as User,
+      }  as User,
       accessTokenKey,
       refreshTokenKey
     );
@@ -45,9 +45,11 @@ router.post(
       keystore.primaryKey,
       keystore.secondarKey
     );
-
+    delete createdUser["rating"];
+    delete createdUser["background"];
     new SuccessResponse("Signup Successful", {
-      user: _.pick(createdUser, ["_id", "name", "email", "roles"]),
+      // user: _.pick(createdUser, ["_id", "name", "email", ]),
+      user:createdUser,
       tokens,
     }).send(res);
   })
