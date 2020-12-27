@@ -8,6 +8,12 @@ export default class MentorRepo {
       .lean<Mentor>()
       .exec();
   }
+  public static fetchAll(): Promise<Mentor[]> {
+    return MentorModel.find({})
+      .select("+name +email +ratings")
+      .lean<Mentor>()
+      .exec();
+  }
 
   public static async editRating(
     email: string,

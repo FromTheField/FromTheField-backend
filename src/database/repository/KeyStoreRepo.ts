@@ -7,6 +7,7 @@ export default class KeystoreRepo {
     public static findforKey(client: User, key: string): Promise<Keystore> {
       return KeystoreModel.findOne({ client: client, primaryKey: key, status: true }).exec();
     }
+ 
   
     public static remove(id: Types.ObjectId): Promise<Keystore> {
       return KeystoreModel.findByIdAndRemove(id).lean<Keystore>().exec();

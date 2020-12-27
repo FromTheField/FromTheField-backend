@@ -2,19 +2,26 @@ import User, { UserModel } from "../models/User";
 import Keystore from "../models/keystore";
 import KeystoreRepo from "./KeyStoreRepo";
 
+
+const allInfo = "+name +email +password + ratings";
 export default class UserRepo {
     public static findByEmail(email: string): Promise<User> {
         return UserModel.findOne({ email })
-          .select("+name +email +password")
+          .select(allInfo)
           .lean<User>()
           .exec();
       }
     
   public static findById(id: string): Promise<User> {
     return UserModel.findById(id)
-      .select("+email +password")
       .lean<User>()
       .exec();
+  }
+  public static fetchAll():Promise<User[]> {
+    return UserModel.find({})
+    .select(allInfo)
+    .lean<User>()
+    .exec();
   }
 
   public static async editRating(
