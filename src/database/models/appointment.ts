@@ -17,7 +17,7 @@ export default interface Appointment extends Document{
     mentor:User;
     time:Date;
     info:string; 
-    status:Status;
+    status?:Status;
     createdAt?:Date;
     updatedAt?:Date;
 }
@@ -40,7 +40,6 @@ const appointmentSchema = new Schema({
         info:{
             type:Schema.Types.String,
             trim:'true',
-            maxlength:100
         },
         status:{
             type:Schema.Types.String,
