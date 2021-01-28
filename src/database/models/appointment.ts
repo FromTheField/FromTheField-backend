@@ -6,7 +6,7 @@ export const DOCUMENT_NAME = "appointment";
 export const COLLECTION_NAME = "appointments";
 
 
-enum Status {
+export enum Status {
     PENDING="pending",
     CONFIRMED="confirmed",
     CANCELLED="cancelled",

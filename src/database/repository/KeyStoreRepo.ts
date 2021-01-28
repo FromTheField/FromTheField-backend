@@ -37,10 +37,10 @@ export default class KeystoreRepo {
       let keystore:Keystore;
       keystore = await KeystoreModel.findOne({client});
       if(keystore) {
-        console.log("tokens exists")
+       // console.log("tokens exists")
         keystore =await  KeystoreModel.findOneAndUpdate({client}, {$set:{primaryKey,secondaryKey}}, {new: true});
       } else {
-        console.log("new tokens creted")
+       // console.log("new tokens creted")
         keystore = await KeystoreModel.create(({
               client: client._id,
               primaryKey: primaryKey,
