@@ -71,9 +71,6 @@ router.get(
 );
 
 
-
-
-
 router.get(
     "/byMentor/:status",
     validator(schema.byStatus,ValidationSource.PARAM),

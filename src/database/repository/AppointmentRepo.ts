@@ -1,4 +1,5 @@
 
+import { Types } from 'mongoose';
 import { NoData } from '../../core/ApiError';
 import Appointment, { AppointmentModel,Status } from '../models/appointment'
 import User from '../models/User';
@@ -8,6 +9,9 @@ export default class AppointmentRepo {
         appointment.createdAt = appointment.updatedAt = now;
         const createdApp = await AppointmentModel.create(appointment);
         return createdApp.toObject();
+    }
+    public static async finById(id:Types.ObjectId):Promise<Appointment> {
+        return AppointmentModel.findById(id).lean<Appointment>().exec();
     }
     public static async findByMentorMenteeTime(mentee:User,mentor:User,time:Date):Promise<Appointment> {
         return AppointmentModel.findOne({mentee,mentor,time}).lean<Appointment>().exec();
@@ -36,6 +40,9 @@ export default class AppointmentRepo {
         return AppointmentModel.find({mentee,status}).lean<Appointment>().exec();
     }
     public static async cancel(appointment:Appointment):Promise<any> {
-        return AppointmentModel.findOneAndDelete({_id:appointment._id});
+        return AppointmentModel.findOneAndDelete({_id:appointment._id}).lean<Appointment>().exec();
+    }
+    public static async editStatus(appointment:Appointment,status:Status):Promise<Appointment> {
+        return AppointmentModel.findOneAndUpdate({_id:appointment._id},{status},{new:true});
     }
 }
