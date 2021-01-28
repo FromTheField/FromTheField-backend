@@ -1646,3 +1646,7 @@ error: userRating must be less than or equal to 5
 error: userRating must be greater than or equal to 1
 info: {"_id":"6012580c9259a87028758cc3","rating":[0,0,0,0,3],"isMentor":true,"name":"Sir Mentor","password":"$2a$10$GR/bPGFLiwpMEzbrMDO3jueDUASURo/.M3scOmVOXefJ3CX2bYcba","email":"metor@gmail.com","updatedAt":"2021-01-28T06:22:04.509Z","createdAt":"2021-01-28T06:22:04.509Z","background":[],"__v":0}
 info: {"_id":"6012580c9259a87028758cc3","rating":[1,0,0,0,3],"isMentor":true,"name":"Sir Mentor","password":"$2a$10$GR/bPGFLiwpMEzbrMDO3jueDUASURo/.M3scOmVOXefJ3CX2bYcba","email":"metor@gmail.com","updatedAt":"2021-01-28T06:22:04.509Z","createdAt":"2021-01-28T06:22:04.509Z","background":[],"__v":0}
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Mongoose default connection disconnected

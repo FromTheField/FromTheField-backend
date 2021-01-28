@@ -23,7 +23,6 @@ router.post(
       throw new BadRequest("Invalid Rating [1-5]");
 
     const mentor = await UserRepo.findByEmail(email);
-    Logger.info(JSON.stringify(mentor));
     if (!mentor || !mentor.isMentor) throw new BadRequest("Mentor Does not Exist");
     if (!mentor.rating) throw new NoData(`Rating does not existfor ${name}`);
 
