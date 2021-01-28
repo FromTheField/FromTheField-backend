@@ -1,4 +1,5 @@
 import Joi from "joi";
+import { JoiObjectId } from "../../../helpers/validator";
 
 export default {
   new: Joi.object().keys({
@@ -25,7 +26,7 @@ export default {
     userRating: Joi.number().integer().min(1).max(5).required(),
     email: Joi.string().email().required(),
   }),
-  getRating: Joi.object().keys({
-    email: Joi.string().email().required(),
+  byId: Joi.object().keys({
+    id: JoiObjectId().required(),
   }),
 };

@@ -3,11 +3,11 @@ import Keystore from "../models/keystore";
 import KeystoreRepo from "./KeyStoreRepo";
 
 
-const allInfo = "+name +email +password + ratings";
+const mentorInfo = "+rating";
 export default class UserRepo {
-    public static findByEmail(email: string): Promise<User> {
+    public static findByEmail(email: string,isMentor?:boolean): Promise<User> {
         return UserModel.findOne({ email })
-          .select(allInfo)
+          .select(isMentor?mentorInfo:" ")
           .lean<User>()
           .exec();
       }
@@ -19,7 +19,12 @@ export default class UserRepo {
   }
   public static fetchAll():Promise<User[]> {
     return UserModel.find({})
-    .select(allInfo)
+    .lean<User>()
+    .exec();
+  }
+  public static fetchAllMentors():Promise<User[]> {
+    return UserModel.find({isMentor:true})
+    .select(mentorInfo)
     .lean<User>()
     .exec();
   }

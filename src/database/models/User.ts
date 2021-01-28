@@ -59,20 +59,17 @@ const backgroundSchema = new Schema({
       type: Schema.Types.String,
       required: true,
       trim: true,
-      select: false,
       maxlength: 100,
     },
     org:{
       type: Schema.Types.String,
       trim: true,
-      select: false,
       maxlength: 100,
     },
     password: {
       type: Schema.Types.String,
       required: true,
       trim: true,
-      select: false,
     },
     background: {
       type: [backgroundSchema]
@@ -80,7 +77,7 @@ const backgroundSchema = new Schema({
     rating: {
       type: [Schema.Types.Number],
       default: [0, 0, 0, 0, 0],
-      select:false,
+      select:"false"
     },
     desc: {
       type: Schema.Types.String,

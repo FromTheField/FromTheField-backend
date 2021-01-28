@@ -1293,3 +1293,356 @@ info: Server running on port :  3000
 info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
 info: Mongoose connection done
 info: 5fe88b9e8a6618b0f0a8c2e2
+info: Mongoose default connection disconnected
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: 6012482e6962a15e70dda095
+info: 6012482e6962a15e70dda095
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: 5fe4bd0e7a2d856dcb7829db
+info: 5fe4bd0e7a2d856dcb7829db
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: 5fe4bd0e7a2d856dcb7829db
+info: 5fe4bd0e7a2d856dcb7829db
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: 60124f202fd76564c2b4b76b
+info: 60124f202fd76564c2b4b76b
+error: id contains an invalid value
+info: 60124f202fd76564c2b4b76b
+error: id contains an invalid value
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: 60124f202fd76564c2b4b76b
+info: [object Object]
+error: id contains an invalid value
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: 60124f202fd76564c2b4b76b
+info: {"_id":"60124f202fd76564c2b4b76b","isMentor":false,"email":"kurupgokul11@gmail.com","updatedAt":"2021-01-28T05:44:00.553Z","createdAt":"2021-01-28T05:44:00.553Z","background":[],"__v":0}
+error: id contains an invalid value
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: 60124f202fd76564c2b4b76b
+info: {"_id":"60124f202fd76564c2b4b76b","isMentor":false,"email":"kurupgokul11@gmail.com","updatedAt":"2021-01-28T05:44:00.553Z","createdAt":"2021-01-28T05:44:00.553Z","background":[],"__v":0}
+info: 60124f202fd76564c2b4b76b
+error: id contains an invalid value
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: 60124f202fd76564c2b4b76b
+info: {"_id":"60124f202fd76564c2b4b76b","isMentor":false,"email":"kurupgokul11@gmail.com","updatedAt":"2021-01-28T05:44:00.553Z","createdAt":"2021-01-28T05:44:00.553Z","background":[],"__v":0}
+info: 60124f202fd76564c2b4b76b
+info: {"status":true,"_id":"60124f8f2fd76564c2b4b76d","client":"60124f202fd76564c2b4b76b","primaryKey":"d5bf548b439af865a69faff28130b802985692f152ec04f2fe476032dd70c1ef7bcc116582c2663dd1b28eaf9c76dc1d473b5b9adf84bce08ffc0ff2ec3c802a","secondaryKey":"1c0acd99c219c908f54cca7d6a8ea09fcd100d9922e03b9c8b388a53dc98bb8fa124cf520aa009cf2cbbb7758b1a96318b11f4a5f5ef9adacb8b4b748973f7fe","__v":0}
+error: id contains an invalid value
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: id contains an invalid value
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: id contains an invalid value
+error: id contains an invalid value
+error: id contains an invalid value
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: hello
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: hello
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Mongoose default connection disconnected
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Mongoose default connection disconnected
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: hello
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: hello
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: hello
+error: Cannot read property 'forEach' of undefined
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: hello
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: authorization is required
+info: hello
+error: Cannot read property 'forEach' of undefined
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: {"_id":"6012580c9259a87028758cc3","isMentor":true,"email":"metor@gmail.com","updatedAt":"2021-01-28T06:22:04.509Z","createdAt":"2021-01-28T06:22:04.509Z","background":[],"__v":0}
+error: Cannot read property 'forEach' of undefined
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: Mentor has not been set rating: set default ratin to this mentor {"statusCode":"10001","status":400}
+error: Mentor has not been set rating: set default ratin to this mentor {"statusCode":"10001","status":400}
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: Mentor has not been set rating: set default rating to this mentor {"statusCode":"10001","status":400}
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: authorization is required
+error: Mentor Does not Exist {"statusCode":"10001","status":400}
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: Mentor Does not Exist {"statusCode":"10001","status":400}
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: {"_id":"6012580c9259a87028758cc3","name":"Sir Mentor","password":"$2a$10$GR/bPGFLiwpMEzbrMDO3jueDUASURo/.M3scOmVOXefJ3CX2bYcba"}
+error: Mentor Does not Exist {"statusCode":"10001","status":400}
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: {"_id":"6012580c9259a87028758cc3","isMentor":true,"name":"Sir Mentor","password":"$2a$10$GR/bPGFLiwpMEzbrMDO3jueDUASURo/.M3scOmVOXefJ3CX2bYcba","email":"metor@gmail.com","updatedAt":"2021-01-28T06:22:04.509Z","createdAt":"2021-01-28T06:22:04.509Z","background":[],"__v":0}
+error: name is not defined
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: {"_id":"6012580c9259a87028758cc3","rating":[0,0,0,0,0],"isMentor":true,"name":"Sir Mentor","password":"$2a$10$GR/bPGFLiwpMEzbrMDO3jueDUASURo/.M3scOmVOXefJ3CX2bYcba","email":"metor@gmail.com","updatedAt":"2021-01-28T06:22:04.509Z","createdAt":"2021-01-28T06:22:04.509Z","background":[],"__v":0}
+info: {"_id":"6012580c9259a87028758cc3","rating":[0,0,0,0,1],"isMentor":true,"name":"Sir Mentor","password":"$2a$10$GR/bPGFLiwpMEzbrMDO3jueDUASURo/.M3scOmVOXefJ3CX2bYcba","email":"metor@gmail.com","updatedAt":"2021-01-28T06:22:04.509Z","createdAt":"2021-01-28T06:22:04.509Z","background":[],"__v":0}
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: {"_id":"6012580c9259a87028758cc3","rating":[0,0,0,0,2],"isMentor":true,"name":"Sir Mentor","password":"$2a$10$GR/bPGFLiwpMEzbrMDO3jueDUASURo/.M3scOmVOXefJ3CX2bYcba","email":"metor@gmail.com","updatedAt":"2021-01-28T06:22:04.509Z","createdAt":"2021-01-28T06:22:04.509Z","background":[],"__v":0}
+error: userRating must be less than or equal to 5
+error: userRating must be greater than or equal to 1
+info: {"_id":"6012580c9259a87028758cc3","rating":[0,0,0,0,3],"isMentor":true,"name":"Sir Mentor","password":"$2a$10$GR/bPGFLiwpMEzbrMDO3jueDUASURo/.M3scOmVOXefJ3CX2bYcba","email":"metor@gmail.com","updatedAt":"2021-01-28T06:22:04.509Z","createdAt":"2021-01-28T06:22:04.509Z","background":[],"__v":0}
+info: {"_id":"6012580c9259a87028758cc3","rating":[1,0,0,0,3],"isMentor":true,"name":"Sir Mentor","password":"$2a$10$GR/bPGFLiwpMEzbrMDO3jueDUASURo/.M3scOmVOXefJ3CX2bYcba","email":"metor@gmail.com","updatedAt":"2021-01-28T06:22:04.509Z","createdAt":"2021-01-28T06:22:04.509Z","background":[],"__v":0}

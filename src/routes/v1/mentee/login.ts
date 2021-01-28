@@ -1,6 +1,5 @@
 import express from "express";
 import asyncHandler from "../../../helpers/asyncHandler";
-import MenteeRepo from "../../../database/repository/MenteeRepo";
 import { SuccessResponse } from "../../../core/ApiResponse";
 import { BadRequestError, AuthFailureError } from "../../../core/ApiError";
 import bcrypt from "bcryptjs";
@@ -10,6 +9,7 @@ import schema from "./schema";
 import crypto from "crypto";
 import KeystoreRepo from "../../../database/repository/KeyStoreRepo";
 import { createTokens } from "../../../auth/authUtils";
+import UserRepo from "../../../database/repository/UserRepo";
 
 const router = express.Router();
 
@@ -17,7 +17,7 @@ router.post(
   "/basic",
   validator(schema.login),
   asyncHandler(async (req, res) => {
-    const user = await MenteeRepo.findByEmail(req.body.email);
+    const user = await UserRepo.findByEmail(req.body.email);
     if (!user) throw new BadRequestError("User Not Registered");
     if (!user.password) throw new BadRequestError("Password not set");
 

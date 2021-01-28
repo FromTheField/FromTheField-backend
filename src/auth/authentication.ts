@@ -23,16 +23,13 @@ export default router.use(
       const payload = await JWT.validate(req.accessToken);
       validateTokenData(payload);
 
-     Logger.info(payload.sub);
-
       const user = await UserRepo.findById(payload.sub);
       if (!user) throw new AuthFailureError('User not registered: Please Login first and check the autorisation header');
       req.user = user ;
 
-      const keystore = await KeystoreRepo.findforKey(req.user._id,payload.prm);
+      const keystore = await KeystoreRepo.findforKey(req.user,payload.prm);
       if (!keystore) throw new AuthFailureError('No such User Logged in/ Credentials have expired. Please Login again .');
       req.keystore = keystore;
-
       return next();
     } catch (e) {
       if (e instanceof TokenExpiredError) throw new AccessTokenError("Token Expired: " + e.message);
