@@ -9,6 +9,9 @@ export default class AppointmentRepo {
         const createdApp = await AppointmentModel.create(appointment);
         return createdApp.toObject();
     }
+    public static async findByMentorMenteeTime(mentee:User,mentor:User,time:Date):Promise<Appointment> {
+        return AppointmentModel.findOne({mentee,mentor,time}).lean<Appointment>().exec();
+    }
     public static async fetchAll():Promise<Appointment[]>{
         return AppointmentModel.find({}).lean<Appointment>().exec();
     }

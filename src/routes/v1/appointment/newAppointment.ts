@@ -9,6 +9,7 @@ import UserRepo from "../../../database/repository/UserRepo";
 import { BadRequest, SuccessResponse } from "../../../core/ApiResponse";
 import Appointment from "../../../database/models/appointment";
 import Logger from "../../../core/Logger";
+import { BadRequestError } from "../../../core/ApiError";
 const router = express.Router();
 
 router.use("/",authentication);
@@ -20,9 +21,13 @@ router.post(
         const {mentor_email,time,info} = req.body;
 
         const mentor = await UserRepo.findByEmail(mentor_email);
-        if(!mentor || !mentor.isMentor) throw new BadRequest("Email does not belong to a registered mentor");
+        if(!mentor || !mentor.isMentor) throw new BadRequestError("Email does not belong to a registered mentor");
         
         const timeJS = new Date(time);
+
+        const exists = await AppointmentRepo.findByMentorMenteeTime(req.user,mentor,time);
+        if(exists) throw new BadRequestError("Appointment has already been scheduled");
+
         const createdAppointment = await AppointmentRepo.create({
             mentee:req.user,
             mentor,
