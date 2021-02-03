@@ -5,9 +5,8 @@ import schema from './appointmentSchema'
 import { Status } from "../../../database/models/appointment";
 import AppointmentRepo from "../../../database/repository/AppointmentRepo";
 import { Types } from "mongoose";
-import { SuccessMsgResponse } from "../../../core/ApiResponse";
+import {  SuccessResponse } from "../../../core/ApiResponse";
 import { BadRequestError, InternalError } from "../../../core/ApiError";
-import Logger from "../../../core/Logger";
 const router = express.Router();
 
 router.put(
@@ -18,13 +17,14 @@ router.put(
         const {status} = req.body;
         const appStatus:Status = status;
         const appId:Types.ObjectId = new Types.ObjectId(req.params.id);
-        const appointment = await AppointmentRepo.finById(appId)
+        const appointment = await AppointmentRepo.findById(appId)
         if(!appointment) throw new BadRequestError(`No such appointment with id ${appId}`);
-        Logger.info(appStatus)
-
+        if(appointment.status === Status.CONFIRMED && appStatus === Status.CONFIRMED) throw new BadRequestError(`Appointment already confirmed and scheduled`);
         try {
-            await AppointmentRepo.editStatus(appointment,appStatus);
-            new SuccessMsgResponse("Successfully updated status").send(res);
+           const app = await AppointmentRepo.editStatus(appointment,appStatus);
+            new SuccessResponse("Successfully updated status",{
+                app
+            }).send(res);
         }catch(err) {
             throw new InternalError(`Failed to update status: ${err}`);
         }
