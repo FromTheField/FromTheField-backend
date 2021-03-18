@@ -16,8 +16,3 @@ export const tokenInfo = {
   issuer: process.env.TOKEN_ISSUER,
   audience: process.env.TOKEN_AUDIENCE,
 };
-
-export const GOOGLE_CALENDER = {
-  credentials:process.env.GOOGLE_CREDENTIALS,
-  calender_id:process.env.GOOGLE_CALENDER_ID,
-}

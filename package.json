@@ -13,6 +13,7 @@
     "watch-node": "nodemon --delay 2500ms  -r dotenv/config build/server.js",
     "init-roledb": "node -r dotenv/config build/database/role_init.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "engines": {
     "node": "15.x"
@@ -44,7 +45,6 @@
     "crypto": "^1.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "googleapis": "^67.0.0",
     "joi": "^17.3.0",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.20",
