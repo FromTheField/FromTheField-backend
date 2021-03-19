@@ -2112,3 +2112,465 @@ error: status is required
 info: confirmed
 error: status must be one of [confirmed, pending, cancelled]
 info: confirmed
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: passport is not defined
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: router is not defined
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: auth is not defined
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: The argument 'id' must be a non-empty string. Received '' {"code":"ERR_INVALID_ARG_VALUE"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: Cannot find module './'
+Require stack:
+- /home/nopc/Desktop/Github-Clones/FromTheField-backend/build/app.js
+- /home/nopc/Desktop/Github-Clones/FromTheField-backend/build/server.js {"code":"MODULE_NOT_FOUND","requireStack":["/home/nopc/Desktop/Github-Clones/FromTheField-backend/build/app.js","/home/nopc/Desktop/Github-Clones/FromTheField-backend/build/server.js"]}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: Unknown authentication strategy "google"
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: Unknown authentication strategy "google"
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Mongoose default connection disconnected
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: Unknown authentication strategy "google"
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: Unknown authentication strategy "google"
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: Unknown authentication strategy "google"
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: Unknown authentication strategy "google"
+error: Unknown authentication strategy "google"
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: Unknown authentication strategy "google"
+error: Unknown authentication strategy "google"
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: req is not defined
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: Unknown authentication strategy "google"
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: user validation failed: updatedAt: Path `updatedAt` is required., createdAt: Path `createdAt` is required., password: Path `password` is required. {"errors":{"updatedAt":{"name":"ValidatorError","message":"Path `updatedAt` is required.","properties":{"message":"Path `updatedAt` is required.","type":"required","path":"updatedAt"},"kind":"required","path":"updatedAt"},"createdAt":{"name":"ValidatorError","message":"Path `createdAt` is required.","properties":{"message":"Path `createdAt` is required.","type":"required","path":"createdAt"},"kind":"required","path":"createdAt"},"password":{"name":"ValidatorError","message":"Path `password` is required.","properties":{"message":"Path `password` is required.","type":"required","path":"password"},"kind":"required","path":"password"}},"_message":"user validation failed"}
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port! :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: Router.use() requires a middleware function but got a Object
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: Router.use() requires a middleware function but got a Object
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: The "id" argument must be of type string. Received undefined {"code":"ERR_INVALID_ARG_TYPE"}
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+error: passport is not defined
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
+info: Server running on port :  3000
+info: Mongoose default connection open to mongodb://localhost:27017/FromTheField
+info: Mongoose connection done
