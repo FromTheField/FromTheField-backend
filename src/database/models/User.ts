@@ -46,18 +46,20 @@ const backgroundSchema = new Schema({
     org?:string;
     createdAt?: Date;
     updatedAt?: Date;
+    token?:string;
+    googleId?: string;
   }
 
   const userSchema = new Schema({
     email: {
       type: Schema.Types.String,
-      required: true,
+      // required: true,
       trim: true,
       unique: true,
     },
     name: {
       type: Schema.Types.String,
-      required: true,
+      // required: true,
       trim: true,
       maxlength: 100,
     },
@@ -68,7 +70,7 @@ const backgroundSchema = new Schema({
     },
     password: {
       type: Schema.Types.String,
-      required: true,
+      // required: true,
       trim: true,
     },
     background: {
@@ -97,16 +99,18 @@ const backgroundSchema = new Schema({
     isMentor:{
       type:Schema.Types.Boolean,
       default:false,
-      requried:true
+      // requried:true
     },
     createdAt: {
       type: Schema.Types.Date,
-      required: true,
+      // required: true,
     },
     updatedAt: {
       type: Schema.Types.Date,
-      required: true,
+      // required: true,
     },
+    token: { type: String },
+    googleId: { type: String },
   });
   
   export const UserModel = model<User>(
